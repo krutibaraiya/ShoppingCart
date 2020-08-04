@@ -1,0 +1,14 @@
+vogue_top,small
+raymond_shirt,large
+raymond_shirt,medium
+levis_tshirt,large
+vogue_top,small
+bare_cardigan,small
+vogue_top,large
+bare_cardigan,large
+raymond_shirt,small
+levis_tshirt,small
+levis_tshirt,medium
+bare_cardigan,medium
+vogue_top,small
+vogue_top,small
