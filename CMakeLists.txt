@@ -3,4 +3,4 @@ project(ShoppingCart)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ShoppingCart main.cpp Cart.h)
+add_executable(ShoppingCart main.cpp Cart.h Apparel.h)
