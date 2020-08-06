@@ -25,5 +25,21 @@ int main()
 
     cout << endl << endl << "Total items : " << apparelCart.apparel_total() << endl;
 
+    cout << "\n Small apparels: " << apparelCart.apparel_size_total(small);
+    cout << "\n Medium apparels: " << apparelCart.apparel_size_total(medium);
+    cout << "\n Large apparels: " << apparelCart.apparel_size_total(large) << endl;
+
+    cout << "\nvogue_top: " << apparelCart.apparel_type_total(vogue_top);
+    cout << "\nbare_cardigan: " << apparelCart.apparel_type_total(bare_cardigan);
+    cout << "\nlevis_tshirt: " << apparelCart.apparel_type_total(levis_tshirt);
+
+    cout << "\n\n--------------\nRemove any apparel which you do not like ";
+    Apparel a = apparelCart.remove_any_apparel();
+    cout << "\nRemoved apparel: ";
+    a.print();
+
+    cout << "\n Your cart now has: ";
+    apparelCart.print_apparels();
+
     return 0;
 }
